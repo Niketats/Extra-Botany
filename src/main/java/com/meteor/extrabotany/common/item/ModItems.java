@@ -193,8 +193,8 @@ public class ModItems {
 	public static final Item rewardbags = new ItemRewardBagSpecial();
 	
 	public static final Item firstfractal = new ItemFirstFractal();
-//	public static final Item daedalusstormbow = new ItemDaedalusStormbow();
-//	public static final Item rainbowcursor = new ItemRainbowCursor();
+	public static final Item daedalusstormbow = new ItemDaedalusStormbow();
+	public static final Item rainbowcursor = new ItemRainbowCursor();
 
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> evt) {
